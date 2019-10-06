@@ -1,1 +1,1 @@
-worker: 
+worker: node n!commands.js
