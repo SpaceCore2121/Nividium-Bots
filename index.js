@@ -21,7 +21,7 @@ fs.readdir("./Commands/", (err, files) => {
     });
 });
 
-const token = 'NjI4MzEwMzc4MTQ0NTk1OTY4.XZjV5w.Zb4-DlSz-YE809PH6JvjgDpOg2A';
+
 
 const PREFIX = 'n!';
 
