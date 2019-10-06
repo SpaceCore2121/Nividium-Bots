@@ -8,11 +8,9 @@ bot.on('ready', () => {
 })
 
 bot.on('message', msg => {
-    const PERFIX = 'n!';
+   
     let args = msg.content.substring(PREFIX.length).split(" ");
-    let messageArray = msg.content.split(" ");
-    let cmd = messageArray[0];
-
+    
     let commandfile = bot.commands.get(cmd.slice(PERFIX.length));
     if (commandfile) commandfile.run(bot, msg, args);
 
