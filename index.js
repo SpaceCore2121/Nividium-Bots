@@ -7,7 +7,7 @@ const PREFIX = 'n!';
 
 bot.on('ready', () => {
     console.log('This bot is online!');
-    bot.user.setActivity('Nividium Metro2033');
+    bot.user.setActivity('Blåa Berget Roleplay 15+');
 })
 
 bot.on('message', msg => {
